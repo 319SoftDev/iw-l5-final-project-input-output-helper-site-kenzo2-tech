@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Offical Listen</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <header class="images"> 
+        <img id='head' src="FinalHeader.jpg"> 
+    </header>
+
+    <nav>
+        <button id="genre"> <b style='margin-top: 5px'> Music Genres</b> </button>
+        <button class="gbutton" id="neo-soul"> Neo Soul</button>
+        <button class="gbutton" id="rnb"> R&B</button>
+        <button class="gbutton" id="soul"> Soul</button>
+        <button class="gbutton" id="rap">Reggae</button>
+    </nav>
+
+    <artists>
+        <img class="blues" id="brent" src="brent2.jpg">
+        <img class="blues" id="leon" src="leon3.jpg">
+        
+        <img class="neoSoul" id="lauryn" src="lauryn.jpg">
+        <img class="neoSoul" id="goapele" src="goapele.jpg">
+        
+        <img class="soulz" id="tems" src="tems.jpg">
+        <img class="soulz" id="sam" src="sam.jpg">
+
+        <img class="reggae" id="gyptian" src="gyptian.jpg">
+        <img class="reggae" id="vybz" src="vybz.jpg">
+    </artist>
+
+    <audio src="" id="audio"></audio>
+    <div class="box">
+
+        <div class="music-player">
+
+            <div class=" disk"></div>
+
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+
+            <div class="controls">
+                <button class="play-btn pause">
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <img id='decor'src="https://i5.walmartimages.com/asr/db9c4003-ab38-4b3d-ae2b-3a662938abe3.ae2809196ac559811e18141b4f6f0672.png">
+    <div id="poster"></div>
+
+    <script src="songs.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
